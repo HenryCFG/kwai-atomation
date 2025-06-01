@@ -27,9 +27,6 @@ ChromeDriver (compatible with your Chrome version)
 Required Python libraries (install via pip):
 pip install selenium pandas openpyxl natsort
 
-Setup
-Download ChromeDriver:
-Download the appropriate ChromeDriver for your Chrome browser version from https://sites.google.com/chromium.org/driver/ and place it in a directory accessible by your system's PATH, or specify its path directly in main.py.
 
 Video Folder:
 Create a folder named videos (or modify videos_folder in main.py and main-names.py) and place your video files (e.g., .mp4) inside it.
