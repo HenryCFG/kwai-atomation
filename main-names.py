@@ -3,7 +3,7 @@ import random
 import string
 import re
 
-folder_path = r'c:\Users\ygody\Desktop\AutomacaoKwai\videos'
+folder_path = r'c:\Users\henrycfg\Desktop\Automacao\videos'
 
 def extract_number(filename):
     match = re.match(r'(\d+)', filename)
@@ -25,7 +25,7 @@ for filename in files:
     name, ext = os.path.splitext(filename)
     number_match = re.match(r'(\d+)', filename)
     if not number_match:
-        continue  # Skip files without a leading number
+        continue 
     number = number_match.group(1)
     random_code = generate_unique_code(used_codes)
     new_name = f"{number} {random_code}{ext}"
